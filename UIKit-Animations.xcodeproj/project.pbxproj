@@ -15,6 +15,7 @@
 		6359323623E47FA000FC4A8A /* AnimationsTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6359323523E47FA000FC4A8A /* AnimationsTabController.swift */; };
 		6359323823E4806F00FC4A8A /* SampleAnimationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6359323723E4806F00FC4A8A /* SampleAnimationsController.swift */; };
 		6359323A23E4809900FC4A8A /* ConstraintsAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6359323923E4809900FC4A8A /* ConstraintsAnimationController.swift */; };
+		6359323C23E486D000FC4A8A /* SampleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6359323B23E486D000FC4A8A /* SampleAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		6359323523E47FA000FC4A8A /* AnimationsTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsTabController.swift; sourceTree = "<group>"; };
 		6359323723E4806F00FC4A8A /* SampleAnimationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAnimationsController.swift; sourceTree = "<group>"; };
 		6359323923E4809900FC4A8A /* ConstraintsAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsAnimationController.swift; sourceTree = "<group>"; };
+		6359323B23E486D000FC4A8A /* SampleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				6359323923E4809900FC4A8A /* ConstraintsAnimationController.swift */,
 				6359321C23E47E4A00FC4A8A /* Assets.xcassets */,
 				6359321E23E47E4A00FC4A8A /* LaunchScreen.storyboard */,
+				6359323B23E486D000FC4A8A /* SampleAnimationView.swift */,
 				6359322123E47E4A00FC4A8A /* Info.plist */,
 			);
 			path = "UIKit-Animations";
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6359323823E4806F00FC4A8A /* SampleAnimationsController.swift in Sources */,
+				6359323C23E486D000FC4A8A /* SampleAnimationView.swift in Sources */,
 				6359321423E47E3F00FC4A8A /* AppDelegate.swift in Sources */,
 				6359323623E47FA000FC4A8A /* AnimationsTabController.swift in Sources */,
 				6359321623E47E3F00FC4A8A /* SceneDelegate.swift in Sources */,

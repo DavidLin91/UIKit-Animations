@@ -10,6 +10,14 @@ import UIKit
 
 class SampleAnimationsController: UIViewController {
 
+    private let sampleAnimationsView = SampleAnimationView()
+    
+    
+    override func loadView() {
+        view = sampleAnimationsView
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemTeal
