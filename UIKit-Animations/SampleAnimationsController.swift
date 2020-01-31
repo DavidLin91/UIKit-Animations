@@ -29,6 +29,15 @@ class SampleAnimationsController: UIViewController {
         // pulsatingAimation()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        scaleAnimation()
+    }
+    
+    
+    
+    
+    
     
     private func scaleAnimation() {
         
